@@ -1,1 +1,4 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Logo Highlight */
+#header-inner{background-image:linear-gradient(110deg,rgba(255,255,255,0.2) 16%,rgba(255,255,255,0.2) 17%,rgba(255,255,255,0.1) 17%,rgba(255,255,255,0.1) 23%,transparent 8.5%,transparent 78%,rgba(255,255,255,0.1) 78%,rgba(255,255,255,0.1) 84%,rgba(255,255,255,0.2) 84%,rgba(255,255,255,0.2)); background-size: 320% 200%;-webkit-animation:Gradient 15s ease infinite;-moz-animation:Gradient 15s ease infinite;animation:Gradient 15s ease infinite;}@-webkit-keyframes  Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}@-moz-keyframes Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}@keyframes  Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}
