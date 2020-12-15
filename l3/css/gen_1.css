@@ -1,8 +1,0 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-
-.back-to-top{visibility:hidden;opacity:0;z-index:99;background:#fff;color:#222;font-size:1.5rem;width:45px;height:45px;line-height:45px;text-align:center;position:fixed;bottom:20px;right:20px;cursor:pointer;-webkit-transform:translateZ(0) scale(0.0) rotate(360deg);transform:translateZ(0) scale(0.0) rotate(360deg);border-radius:99em;box-shadow:0 2px 6px rgba(113,162,223,.1),0 2px 6px rgba(113,162,223,.3);transition:all .4s}
-.back-to-top a{color:#222}
-.back-to-top:hover{box-shadow:0 3px 12px rgba(113,162,223,.1),0 3px 12px rgba(113,162,223,.3)}
-.back-to-top:hover a{color:#888}
-.back-to-top.arlniainf{visibility:visible;cursor:pointer;opacity:1;-webkit-transform:translateZ(0) scale(1.0) rotate(0deg);transform:translateZ(0) scale(1.0) rotate(0deg);transition:all .4s;}
-
