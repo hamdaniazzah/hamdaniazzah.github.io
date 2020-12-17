@@ -1,4 +1,2 @@
-// Back to top
-$(function(){$(window).scroll(function(){$(this).scrollTop()>400?$(".back-to-top").addClass('arlniainf'):$(".back-to-top").removeClass('arlniainf')}),$(".back-to-top").click(function(){return $("html,body").animate({scrollTop:0},400),!1})});
-// Footer
 document.getElementById('footby').innerHTML = 'Blogger'
+document.body.insertAdjacentHTML("beforeend",'<div id="l3load_page" class="l3load_hide"><div class="l3loadnya l3anim_spin-1s"></div></div>'),window.addEventListener("beforeunload",function(){const d=document.getElementById("l3load_page");setTimeout(function(){d.style.display="block"},1),setTimeout(function(){d.classList.remove("l3load_hide"),d.classList.add("l3load_show")},200)});
