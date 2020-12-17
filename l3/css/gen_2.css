@@ -3,3 +3,9 @@
 .l3_fixright{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;bottom:24px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;position:fixed;right:24px;z-index:100}
 .l3_fixright>*{width:50px;height:50px;border-radius:50%;margin-top:20px;-webkit-box-shadow:0 2px 4px -1px rgba(0,0,0,0.2),0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12);box-shadow:0 2px 4px -1px rgba(0,0,0,0.2),0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12)}
 .l3fr_love{margin:12px 0 0;font-size:30px;color:#e74c3c}
+
+#l3load_page{position:fixed;top:0;right:0;bottom:0;left:0;z-index:999999;background:#fff}
+.l3loadnya{background:transparent;top:calc(50% - 35px);left:calc(50% - 32.5px);margin-right:-50%;transform:translate(-50%,-50%);border:5px solid #eee;border-radius:50%;border-top:5px solid #4285f4 !important;border-bottom:5px solid #4285f4 !important;width:60px;height:60px;position:absolute}
+.l3load_show{transition:opacity 400ms}
+.l3load_hide{opacity:0}
+#l3load_page{display:none}
