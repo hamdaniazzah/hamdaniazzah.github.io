@@ -1,5 +1,14 @@
 .l3pe0,.l3pe0 img,.l3pe0 amp-img{pointer-events:none}
 
+.l3icon_scroll-y{display:flex;overflow-y:auto;}
+.l3icon_scroll-y a{
+  display:block;
+  text-align:center;
+  margin:0 10px 0 0;
+  padding:2.5px;
+  color:#222;
+  font-size:13px}
+
 .l3img_mobile{align-items:center;display:flex;flex-direction:column;justify-content:flex-end;margin:5px 0 30px}
 .l3img_mobilenya{height:82vh;width:49vh}
 .l3img_mobilenya-red{background-color:transparent;border-radius:4vh;border-color:rgba(255,0,0,.2);border-style:solid;border-width:2vh;box-sizing:content-box}
