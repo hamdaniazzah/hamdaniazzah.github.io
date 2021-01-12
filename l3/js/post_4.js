@@ -8,6 +8,10 @@ $(".l3v_yt").each(function() {
         $(this).replaceWith('<amp-youtube data-videoid="' + $(this).data("id") + '" layout="responsive" width="480" height="270" autoplay></amp-youtube>')
     })
 
+$(".l3s_ig").each(function() {
+        $(this).replaceWith('<amp-instagram data-shortcode="' + $(this).data("id") + '" data-captioned width="1" height="1" layout="responsive"></amp-instagram>')
+    })
+
 $(".faqnya").each(function() {
         $(this).replaceWith('<div class="l3_faq"><input type="checkbox" id="' + $(this).data("q") + '"><label class="l3_faq-label" for="' + $(this).data("q") + '">' + $(this).data("q") + '</label><div class="l3_faq-content">' + $(this).data("a") + '</div></div>')
     })
