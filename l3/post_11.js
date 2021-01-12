@@ -2,6 +2,8 @@ l3file("https://cdn.statically.io/gh/hamdaniazzah/hamdaniazzah.github.io/master/
 l3file("https://cdn.ampproject.org/v0/amp-youtube-0.1.js", "js")
 l3file("https://cdn.ampproject.org/v0/amp-iframe-0.1.js", "js")
 l3file("https://cdn.ampproject.org/v0/amp-instagram-0.1.js", "js")
+l3file("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", "js")
+l3file("https://cdn.ampproject.org/v0/amp-ad-0.1.js", "js")
 l3file("https://cdn.ampproject.org/v0/amp-facebook-like-0.1.js", "js")
 l3file("https://cdn.ampproject.org/v0/amp-social-share-0.1.js", "js")
 l3file("https://cdn.statically.io/gh/hamdaniazzah/hamdaniazzah.github.io/master/l3/js/post_4.js", "js")
