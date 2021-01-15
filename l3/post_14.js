@@ -1,5 +1,5 @@
 l3file("https://cdn.statically.io/gh/hamdaniazzah/hamdaniazzah.github.io/master/l3/css/post_4.css", "css")
-l3file("https://cdn.statically.io/gh/hamdaniazzah/hamdaniazzah.github.io/master/l3/js/post_6.js", "js")
+l3file("https://cdn.statically.io/gh/hamdaniazzah/hamdaniazzah.github.io/master/l3/js/post_7.js", "js")
 l3file("https://cdn.ampproject.org/v0/amp-youtube-0.1.js", "js")
 l3file("https://cdn.ampproject.org/v0/amp-instagram-0.1.js", "js")
 l3file("https://cdn.ampproject.org/v0/amp-iframe-0.1.js", "js")
