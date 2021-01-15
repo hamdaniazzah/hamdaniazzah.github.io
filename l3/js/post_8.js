@@ -20,17 +20,4 @@ $("#l3author").each(function(){$(this).replaceWith('<div class="l3author teks_st
 
 var as1 = '<div class="l3_as" align="center"><amp-ad width="100vw" height="320" type="adsense" data-ad-client="ca-pub-4881038805263910" data-ad-slot="4117181124" data-auto-format="rspv" data-full-width=""><div overflow=""></div></amp-ad></div>';
 var as2 = '<div class="l3_as" align="center"><amp-ad width="100vw" height="320" type="adsense" data-ad-client="ca-pub-4881038805263910" data-ad-slot="8314945422" data-auto-format="rspv" data-full-width=""><div overflow=""></div></amp-ad></div>';
-
-$("<div class='as_1'></div>").insertAfter("#as_1a");
-$("<div class='as_2'></div>").insertAfter("#as_2a");
-$("<div class='as_1'></div>").insertBefore("#as_1b");
-$("<div class='as_2'></div>").insertBefore("#as_2b");
-$("<div id='as_1'></div>").insertAfter(".as_1a");
-$("<div id='as_2'></div>").insertAfter(".as_2a");
-$("<div id='as_1'></div>").insertBefore(".as_1b");
-$("<div id='as_2'></div>").insertBefore(".as_2b");
-
-$(".as1").each(function(){$(this).replaceWith(as1)});
-$(".as2").each(function(){$(this).replaceWith(as2)});
-$("#as1").each(function(){$(this).replaceWith(as1)});
-$("#as2").each(function(){$(this).replaceWith(as2)});
+$("<p/>").insertAfter("#as_1a").replaceWith(as1),$("<p/>").insertAfter("#as_2a").replaceWith(as2),$("<p/>").insertBefore("#as_1b").replaceWith(as1),$("<p/>").insertBefore("#as_2b").replaceWith(as2),$("<p/>").insertAfter(".as_1a").replaceWith(as1),$("<p/>").insertAfter(".as_2a").replaceWith(as2),$("<p/>").insertBefore(".as_1b").replaceWith(as1),$("<p/>").insertBefore(".as_2b").replaceWith(as2);
