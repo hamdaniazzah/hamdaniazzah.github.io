@@ -17,3 +17,8 @@ $(".faqnya").each(function() {
     })
 
 $("#l3author").each(function(){$(this).replaceWith('<div class="l3author teks_stroke">Penulis:</div><div class="l3_author"><amp-img alt="Penulis: ' + $(this).data("name") + '" src="' + $(this).data("img") + '" width="50" height="50" layout="responsive" onContextMenu="return false"></amp-img><div><a href="' + $(this).data("url") + '" rel="nofollow noopener" target="_blank">' + $(this).data("name") + '</a><div>' + $(this).data("job") + '</div></div></div>')})
+
+$("<div class='as_1'></div>").insertAfter("#as_1");
+$("<div class='as_2'></div>").insertAfter("#as_2");
+$(".as_1").replaceWith('<div align="center"><amp-ad width="100vw" height="320" type="adsense" data-ad-client="ca-pub-4881038805263910" data-ad-slot="4117181124" data-auto-format="rspv" data-full-width=""><div overflow=""></div></amp-ad></div>');
+$(".as_2").replaceWith('<div align="center"><amp-ad width="100vw" height="320" type="adsense" data-ad-client="ca-pub-4881038805263910" data-ad-slot="8314945422" data-auto-format="rspv" data-full-width=""><div overflow=""></div></amp-ad></div>');
