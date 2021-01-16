@@ -23,6 +23,6 @@ $(".l3d_spotifyalbum").each(function(){
 $(".l3d_jooxalbum").each(function(){
   $(this).replaceWith('<div class="l3_dengar"><a href="https://www.joox.com/album/' + $(this).data("id") + '" rel="nofollow noopener" target="_blank">'+imgjoox44+'JOOX</a></div>')})
 $(".l3d_deezeralbum").each(function(){
-  $(this).replaceWith('<div class="l3_dengar"><a href="https://www.deezer.com/track/' + $(this).data("id") + '" rel="nofollow noopener" target="_blank">'+imgdeezer44+'Deezer</a></div>')})
+  $(this).replaceWith('<div class="l3_dengar"><a href="https://www.deezer.com/album/' + $(this).data("id") + '" rel="nofollow noopener" target="_blank">'+imgdeezer44+'Deezer</a></div>')})
 
 $(".l3_dengar").appendTo(".dengarkan");
