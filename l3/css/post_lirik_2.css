@@ -3,12 +3,12 @@
 #kor_eksi{position:relative}
 #kor_eksi:before{font-family:'FontAwesome';content:"\f044";margin:0 5px 0 5px}
 
-.mendengarkan{text-align:center}
+.listening{text-align:center}
 .yt_judul{font-size:20px;position:relative;padding:10px 0 10px;border-left:5px solid rgba(0,0,0,0.05);border-right:5px solid rgba(0,0,0,0.05);border-top:5px solid rgba(0,0,0,0.05);border-radius:10px 10px 0 0}
 .yt_judul:before{font-family:'FontAwesome';content:"\f16a";margin:0 5px 0 5px}
 .dengarkan{display:flex;justify-content:center;padding:5px 0 5px;border-left:5px solid rgba(0,0,0,0.05);border-right:5px solid rgba(0,0,0,0.05);border-bottom:5px solid rgba(0,0,0,0.05);border-radius:0px 0px 10px 10px}
-#l3d_judul{line-height:60px;position:relative}
-#l3d_judul:after{font-family:'FontAwesome';content:"\f054";margin:0 5px 0}
+.l3d_judul{line-height:60px;position:relative}
+.l3d_judul:after{font-family:'FontAwesome';content:"\f054";margin:0 5px 0}
 .l3_dengar{cursor:pointer;width:60px;height:60px;padding-top:5px}
 .l3_dengar a{display:block;color:rgba(0,0,0,.87 )}
 .l3_dengar img{width:30px;height:30px;pointer-events:none}
