@@ -1,0 +1,87 @@
+@font-face{font-family:'Google Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Google Sans Regular"),local("GoogleSans-Regular"),url("https://cdn.statically.io/gh/hamdaniazzah/fonts/main/goo-s/regular/cyrillic.woff2") format("woff2");unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}@font-face{font-family:'Google Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Google Sans Regular"),local("GoogleSans-Regular"),url("https://cdn.statically.io/gh/hamdaniazzah/fonts/main/goo-s/regular/greek.woff2") format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Google Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Google Sans Regular"),local("GoogleSans-Regular"),url("https://cdn.statically.io/gh/hamdaniazzah/fonts/main/goo-s/regular/vietnamese.woff2") format("woff2");unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB}@font-face{font-family:'Google Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Google Sans Regular"),local("GoogleSans-Regular"),url("https://cdn.statically.io/gh/hamdaniazzah/fonts/main/goo-s/regular/latin-ext.woff2") format("woff2");unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Google Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Google Sans Regular"),local("GoogleSans-Regular"),url("https://cdn.statically.io/gh/hamdaniazzah/fonts/main/goo-s/regular/latin.woff2") format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Google Sans';font-style:normal;font-weight:500;font-display:swap;src:local("Google Sans Medium"),local("GoogleSans-Medium"),url("https://cdn.statically.io/gh/hamdaniazzah/fonts/main/goo-s/bold/cyrillic.woff2") format("woff2");unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}@font-face{font-family:'Google Sans';font-style:normal;font-weight:500;font-display:swap;src:local("Google Sans Medium"),local("GoogleSans-Medium"),url("https://cdn.statically.io/gh/hamdaniazzah/fonts/main/goo-s/bold/greek.woff2") format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Google Sans';font-style:normal;font-weight:500;font-display:swap;src:local("Google Sans Medium"),local("GoogleSans-Medium"),url("https://cdn.statically.io/gh/hamdaniazzah/fonts/main/goo-s/bold/vietnamese.woff2") format("woff2");unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB}@font-face{font-family:'Google Sans';font-style:normal;font-weight:500;font-display:swap;src:local("Google Sans Medium"),local("GoogleSans-Medium"),url("https://cdn.statically.io/gh/hamdaniazzah/fonts/main/goo-s/bold/latin-ext.woff2") format("woff2");unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Google Sans';font-style:normal;font-weight:500;font-display:swap;src:local("Google Sans Medium"),local("GoogleSans-Medium"),url("https://cdn.statically.io/gh/hamdaniazzah/fonts/main/goo-s/bold/latin.woff2") format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+.unduhbutton{
+  text-align:center;
+  border:5px solid rgba(0,0,0,0.05);
+  border-radius:10px;
+  padding:35px;
+  margin:15px 10%
+  }
+.unduhbutton>*{
+  font-family:"Google Sans",sans-serif;
+  font-weight:400
+  }
+.unduhofficial{
+  background:#0F9D58;
+  font-size:18px;
+  border-radius:5px;
+  padding:10px
+  }
+.unduhofficial a{
+  color:#fff;
+  cursor:pointer;
+  text-decoration:none!important
+  }
+.unduhofficial a:hover{
+  text-decoration:underline!important
+  }
+.unduhmirror{
+  font-size:18px;
+  padding:10px
+  }
+.unduhmirror a{
+  color:#0F9D58;
+  cursor:pointer;
+  text-decoration:none!important
+  }
+.unduhmirror a:hover{
+  text-decoration:underline!important
+  }
+.l3uk-class a{
+  font-size:14px;
+  color:#222;
+  cursor:pointer;
+  text-decoration:none!important
+  }
+.l3uk-class a:hover{
+  text-decoration:underline!important
+  }
+#l3uk-time{
+  display:none;
+  font-size:30px
+  }
+.l3uk-isi>*{
+  border-radius:5px
+  }
+.unduhinfo{
+  float:right;
+  font-size:12px;
+  color:#222;
+  line-height:1.5;
+  padding:5px 0 5px;
+  margin:5px 0 5px
+}
+.unduhinfo svg{
+  width:15px;
+  height:15px;
+  vertical-align:-3px;
+  margin-right:2.5px
+}
+.unduhinfo svg path{
+  fill:#1DA2F2
+}
+
+.l3u-info{text-align:center;background:#ffeaa7;border:5px solid rgba(0,0,0,.05);border-radius:10px;padding:15px;margin:15px 10%}.l3u-info1,.l3u-info2,.l3u-info3{border-radius:99em;box-shadow:0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);padding:10px;margin:15px}.l3u-info1 a,.l3u-info2 a,.l3u-info3 a{font-size:18px;color:#222;cursor:pointer}.l3u-info1 a:hover,.l3u-info2 a:hover,.l3u-info3 a:hover{text-decoration:underline}
+
+.l3u-bijak{
+  font-family:"Google Sans",sans-serif;
+  font-weight:400;
+  background:#ffeaa7;
+  font-size:15px;
+  padding:25px;
+  margin:50px 0 50px;
+  border:3px solid rgba(0,0,0,0.05);
+  border-radius:10px}
+.l3u-btitle{
+  font-size:18px;
+  text-align:center
+  }
