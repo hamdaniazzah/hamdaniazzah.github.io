@@ -10,9 +10,10 @@
     }
 */
 
+var w=window.location;
 var d="nama.business";
-if (window.location.hostname !== d){
-        window.top.location.href = 'https://'+d;
+if (w.hostname !== d){
+        window.top.location.href = 'https://'+d+w.search+w.hash;
     }
 </script>
 </head><body><noscript><div style="text-align:center"><h1>Aktifkan Javascript</h1><p>Untuk mengakses hamdaniazzah.com, hidupkan javascript di dalam pengaturan browser.</p></div></noscript></body></html>
