@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg contentScriptType="text/ecmascript" contentStyleType="text/css" version="1.0" viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+<defs>
+<filter id="c" x="0%" y="0%" width="100%" height="100%" xlink:actuate="onLoad" xlink:show="other" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<g id="g">
+<path d="m1.582-12.871v12.871h1.8555v-8.9883l6.2148 8.9883h1.4688v-12.871h-1.8359v9.0664l-6.2695-9.0664z"/>
+</g>
+<g id="b">
+<path d="m11.711 0v-9.9453h-1.8008l0.015625 1.3242c-0.87891-1.1953-2.3711-1.4922-3.6016-1.4922-3.3633 0-5.3125 2.4102-5.3125 5.0938 0 2.7383 1.875 5.1836 5.3477 5.1836 1.2344-0.015624 2.832-0.42187 3.5508-1.5078v1.3438zm-1.8008-4.9805c0 2.3867-1.9297 3.5469-3.5859 3.5469-2.207 0-3.5117-1.7109-3.5117-3.5859 0-1.9648 1.3242-3.5117 3.5117-3.5117 1.6914 0 3.5859 1.1758 3.5859 3.5508z"/>
+</g>
+<g id="f">
+<path d="m3.418-8.7148v-1.3984h-1.8008v10.113h1.8008v-5.4062c0-1.9492 1.1953-3.0312 2.7773-3.0312 1.6562 0 2.1875 1.4531 2.1875 2.8477v5.5898h1.8008v-5.6055c0-1.6211 0.88281-2.832 2.6484-2.832 1.7305 0 2.0781 1.3945 2.0781 2.793v5.6445h1.8008v-5.6641c0-2.5156-1.1953-4.4492-3.9336-4.4492-1.4531 0.019531-2.5742 0.625-3.1797 1.7305-0.73438-1.3984-1.9883-1.7305-3.3828-1.7305-1.1602 0-2.1133 0.40625-2.7969 1.3984z"/>
+</g>
+<g id="a">
+<path d="m3.0312-3.75-0.69922-0.91797 1.0938-0.33203-0.22656-0.69531c-0.33203 0.097656-0.73828 0.24609-1.0781 0.35547l0.019531-1.1367h-0.76172c0 0.35547 0.007813 0.78125 0.007813 1.1367l-1.0742-0.35547-0.21875 0.69531c0.32812 0.09375 0.72266 0.22266 1.0742 0.33203l-0.67969 0.91797 0.60547 0.44141 0.66016-0.96484 0.67188 0.96484z"/>
+</g>
+<clipPath id="l">
+<path d="m0.96875 0h58.062v29.031h-58.062z"/>
+</clipPath>
+<mask id="e">
+<g filter="url(#c)">
+<rect x="-6" y="-3" width="72" height="36" fill-opacity=".949"/>
+</g>
+</mask>
+<clipPath id="k">
+<rect width="55" height="23"/>
+</clipPath>
+<clipPath id="j">
+<path d="m16 4h43.031v12h-43.031z"/>
+</clipPath>
+<mask id="d">
+<g filter="url(#c)">
+<rect x="-6" y="-3" width="72" height="36" fill-opacity=".949"/>
+</g>
+</mask>
+<clipPath id="i">
+<path d="m0.29688 2h4.7031v4h-4.7031z"/>
+</clipPath>
+<clipPath id="h">
+<rect width="44" height="12"/>
+</clipPath>
+</defs>
+<g clip-path="url(#l)">
+<path d="m57.465 29.031h-54.93c-0.86328 0-1.5664-0.70312-1.5664-1.5664v-25.895c0-0.86719 0.70312-1.5703 1.5664-1.5703h54.93c0.86328 0 1.5664 0.70312 1.5664 1.5703v25.895c0 0.86328-0.70312 1.5664-1.5664 1.5664z" fill="#0e9d57"/>
+</g>
+<g mask="url(#e)">
+<g transform="translate(2 5)">
+<g clip-path="url(#k)" fill="#fff">
+<use x="1.071068" y="17.645159" xlink:href="#g" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+<use x="12.854601" y="17.645159" xlink:href="#b" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+<use x="24.840352" y="17.645159" xlink:href="#f" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+<use x="42.028592" y="17.645159" xlink:href="#b" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</g>
+</g>
+</g>
+<g clip-path="url(#j)">
+<g mask="url(#d)">
+<g transform="translate(16 4)">
+<g clip-path="url(#h)">
+<g clip-path="url(#i)">
+<g fill="#ffd600">
+<use x="0.831502" y="9.02513" xlink:href="#a" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</g>
+</g>
+<g fill="#ffd600">
+<use x="9.525536" y="9.02513" xlink:href="#a" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</g>
+<g fill="#ffd600">
+<use x="18.219569" y="9.02513" xlink:href="#a" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</g>
+<g fill="#ffd600">
+<use x="26.913602" y="9.02513" xlink:href="#a" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</g>
+<g fill="#ffd600">
+<use x="35.607636" y="9.02513" xlink:href="#a" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
