@@ -9,4 +9,4 @@ loadyn(cdn+"css/exp1.min.css","css");
 loadyn(cdn+"js/exp2.min.js","js");
 }
 
-loadyn(cdn+"js/last0.min.js","js");
+loadyn(cdn+"js/last1.min.js","js");
