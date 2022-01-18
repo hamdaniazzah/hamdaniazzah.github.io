@@ -1,4 +1,4 @@
-loadyn(cdn+"css/gen5.min.css","css");
+loadyn(cdn+"css/gen6.min.css","css");
 loadyn(cdn+"js/gen1.min.js","js");
 
 if(!(ls.indexOf("exp=" || "ext2" || "ext3")>-1)){
