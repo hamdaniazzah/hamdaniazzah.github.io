@@ -1,5 +1,8 @@
-loadyn(cdn+"css/gen6.min.css","css");
-loadyn(cdn+"js/gen1.min.js","js");
+var nCSS = ".min.css",
+    nJS = ".min.js";
+
+loadyn(cdn+"css/gen6"+nCSS,"css");
+loadyn(cdn+"js/gen1"+nJS,"js");
 
 if(!(ls.indexOf("exp=" || "ext2" || "ext3")>-1)){
 loadyn(cdn+"css/home5.min.css","css");
