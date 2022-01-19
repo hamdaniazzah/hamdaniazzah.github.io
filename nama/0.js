@@ -10,7 +10,7 @@ loadyn(cdn+"css/home6"+ft1,"css");
 
 if(ls.indexOf("exp=")>-1){
 loadyn(cdn+"css/exp1"+ft1,"css");
-loadyn(cdn+"js/exp2"+ft2,"js");
+loadyn(cdn+"js/exp4"+ft2,"js");
 }
 
 loadyn(cdn+"js/last2"+ft2,"js");
