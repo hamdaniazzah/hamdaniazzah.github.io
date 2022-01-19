@@ -1,16 +1,16 @@
-var nCSS = ".min.css",
-    nJS = ".min.js";
+var ft1 = ".min.css",
+    ft2 = ".min.js";
 
-loadyn(cdn+"css/gen6"+nCSS,"css");
-loadyn(cdn+"js/gen1"+nJS,"js");
+loadyn(cdn+"css/gen6"+ft1,"css");
+loadyn(cdn+"js/gen1"+ft2,"js");
 
 if(!(ls.indexOf("exp=" || "ext2" || "ext3")>-1)){
-loadyn(cdn+"css/home5.min.css","css");
+loadyn(cdn+"css/home5"+ft1,"css");
 }
 
 if(ls.indexOf("exp=")>-1){
-loadyn(cdn+"css/exp1.min.css","css");
-loadyn(cdn+"js/exp2.min.js","js");
+loadyn(cdn+"css/exp1"+ft1,"css");
+loadyn(cdn+"js/exp2"+ft2,"js");
 }
 
-loadyn(cdn+"js/last2.min.js","js");
+loadyn(cdn+"js/last2"+ft2,"js");
