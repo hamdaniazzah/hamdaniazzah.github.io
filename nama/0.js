@@ -4,7 +4,7 @@ loadyn(cdn+"css/gen6"+ft1,"css");
 loadyn(cdn+"js/gen6"+ft2,"js");
 if(!(ls.indexOf("exp=" || "ext2" || "ext3")>-1)){
 loadyn(cdn+"css/home6"+ft1,"css");
-loadyn(cdn+"js/home14"+ft2,"js");
+loadyn(cdn+"js/home15"+ft2,"js");
 }
 if(ls.indexOf("exp=")>-1){
 loadyn(cdn+"css/exp1"+ft1,"css");
