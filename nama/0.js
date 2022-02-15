@@ -8,6 +8,6 @@ loadyn(cdn+"js/home37"+ft2,"js");
 }
 if(ls.indexOf("exp=")>-1){
 loadyn(cdn+"css/exp1"+ft1,"css");
-loadyn(cdn+"js/exp26"+ft2,"js");
+loadyn(cdn+"js/exp27"+ft2,"js");
 }
 loadyn(cdn+"js/last2"+ft2,"js");
