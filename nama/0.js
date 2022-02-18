@@ -4,10 +4,10 @@ loadyn(cdn+"css/gen8"+ft1,"css");
 loadyn(cdn+"js/gen11"+ft2,"js");
 if(!(ls.indexOf("exp=" || "ext2" || "ext3")>-1)){
 loadyn(cdn+"css/home7"+ft1,"css");
-loadyn(cdn+"js/home41"+ft2,"js");
+loadyn(cdn+"js/home42"+ft2,"js");
 }
 if(ls.indexOf("exp=")>-1){
 loadyn(cdn+"css/exp1"+ft1,"css");
-loadyn(cdn+"js/exp27"+ft2,"js");
+loadyn(cdn+"js/exp28"+ft2,"js");
 }
 loadyn(cdn+"js/last2"+ft2,"js");
