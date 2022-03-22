@@ -4,7 +4,9 @@ var ft1 = ".min.css",
 loadyn(cdn+"css/gen8"+ft1,"css");
 loadyn(cdn+"js/gen12"+ft2,"js");
 
-if(!(ls.indexOf("exp=" || "ext2" || "ext3")>-1)){
+if(!(ls.match(
+/\bexp=/ || /\bext2=/ || /\bext3=/
+))){
 loadyn(cdn+"css/home7"+ft1,"css");
 loadyn(cdn+"js/home47"+ft2,"js");
 }
