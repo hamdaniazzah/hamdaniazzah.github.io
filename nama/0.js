@@ -9,9 +9,9 @@ loadyn(cdn+"css/home7"+ft1,"css");
 loadyn(cdn+"js/home46"+ft2,"js");
 }
 
-if(ls.match(/\bexp=/)>-1){
+if(ls.match(/\bexp=/)){
 loadyn(cdn+"css/exp1"+ft1,"css");
-loadyn(cdn+"js/exp30"+ft2,"js");
+loadyn(cdn+"js/exp31"+ft2,"js");
 }
 
 loadyn(cdn+"js/last2"+ft2,"js");
