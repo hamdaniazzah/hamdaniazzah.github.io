@@ -1,7 +1,7 @@
 var ft1 = ".min.css",
     ft2 = ".min.js";
 
-loadyn(cdn+"css/gen10"+ft1,"css");
+loadyn(cdn+"css/gen11"+ft1,"css");
 loadyn(cdn+"js/gen12"+ft2,"js");
 
 if(!(ls.indexOf("exp=" || "ext2" || "ext3")>-1)){
