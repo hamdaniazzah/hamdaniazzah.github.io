@@ -11,7 +11,7 @@ loadyn(cdn+"js/home49"+ft2,"js");
 
 if(ls.match(/\bexp=/)){
 loadyn(cdn+"css/exp1"+ft1,"css");
-loadyn(cdn+"js/exp33"+ft2,"js");
+loadyn(cdn+"js/exp34"+ft2,"js");
 }
 
 loadyn(cdn+"js/last2"+ft2,"js");
