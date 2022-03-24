@@ -6,7 +6,7 @@ loadyn(cdn+"js/gen12"+ft2,"js");
 
 if(!(ls.indexOf("exp=" || "ext2" || "ext3")>-1)){
 loadyn(cdn+"css/home7"+ft1,"css");
-loadyn(cdn+"js/home48"+ft2,"js");
+loadyn(cdn+"js/home49"+ft2,"js");
 }
 
 if(ls.match(/\bexp=/)){
