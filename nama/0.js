@@ -5,8 +5,8 @@ loadyn(cdn+"css/gen11"+ft1,"css");
 loadyn(cdn+"js/gen12"+ft2,"js");
 
 if(!(ls.indexOf("exp=" || "ext2" || "ext3")>-1)){
-loadyn(cdn+"css/home8"+ft1,"css");
-loadyn(cdn+"js/home52"+ft2,"js");
+loadyn(cdn+"css/home9"+ft1,"css");
+loadyn(cdn+"js/home53"+ft2,"js");
 }
 
 if(ls.match(/\bexp=/)){
