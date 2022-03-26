@@ -19,7 +19,7 @@ loadyn(cdn+"js/exp35"+ft2,"js");
 }
 
 if(lh.match(/\bpay$/)){
-loadyn(cdn+"css/pay1"+ft1,"css");
+loadyn(cdn+"css/pay2"+ft1,"css");
 loadyn(cdn+"js/pay6"+ft2,"js");
 }
 
