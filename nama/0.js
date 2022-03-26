@@ -10,7 +10,7 @@ if(
 !(lh.match(/\bpay$/))
 ){
 loadyn(cdn+"css/home9"+ft1,"css");
-loadyn(cdn+"js/home53"+ft2,"js");
+loadyn(cdn+"js/home54"+ft2,"js");
 }
 
 if(ls.match(/\bexp=/)){
