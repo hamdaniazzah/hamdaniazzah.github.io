@@ -5,10 +5,10 @@ var ft1 = ".min.css",
 loadyn(cdn+"css/gen13"+ft1,"css");
 loadyn(cdn+"js/gen12"+ft2,"js");
 
-if(!(
-!ls.match(/\bexp=/) &&
-!lh.match(/\bpay$/)
-)){
+if(
+!(ls.match(/\bexp=/)) &&
+!(lh.match(/\bpay$/))
+){
 loadyn(cdn+"css/home9"+ft1,"css");
 loadyn(cdn+"js/home53"+ft2,"js");
 }
