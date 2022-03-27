@@ -2,7 +2,7 @@ var ft1 = ".min.css",
     ft2 = ".min.js",
     lh = location.hash;
 
-loadyn(cdn+"css/gen14"+ft1,"css");
+loadyn(cdn+"css/gen15"+ft1,"css");
 loadyn(cdn+"js/gen12"+ft2,"js");
 
 if(
@@ -10,7 +10,7 @@ if(
 !(lh.match(/\bpay$/))
 ){
 loadyn(cdn+"css/home9"+ft1,"css");
-loadyn(cdn+"js/home54"+ft2,"js");
+loadyn(cdn+"js/home55"+ft2,"js");
 }
 
 if(ls.match(/\bexp=/)){
