@@ -2,6 +2,8 @@ var ft1 = ".min.css",
     ft2 = ".min.js",
     lh = location.hash;
 
+function addAfter(newNode,existingNode){existingNode.parentNode.insertBefore(newNode,existingNode.nextSibling)}
+
 loadyn(cdn+"css/gen18"+ft1,"css");
 loadyn(cdn+"js/gen12"+ft2,"js");
 
