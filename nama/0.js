@@ -10,12 +10,12 @@ if(
 !(lh.match(/\bpay$/))
 ){
 loadyn(cdn+"css/home12"+ft1,"css");
-loadyn(cdn+"js/home78"+ft2,"js");
+loadyn(cdn+"js/home79"+ft2,"js");
 }
 
 if(ls.match(/\bexp=/)){
 loadyn(cdn+"css/exp1"+ft1,"css");
-loadyn(cdn+"js/exp36"+ft2,"js");
+loadyn(cdn+"js/exp37"+ft2,"js");
 }
 
 if(lh.match(/\bpay$/)){
