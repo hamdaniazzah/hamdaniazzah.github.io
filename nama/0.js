@@ -7,7 +7,7 @@ loadyn(cdn+"js/gen12"+ft2,"js");
 
 if(
 !(ls.match(/\bexp/)) &&
-!(lh.match(/\bpay$/))
+!(ls.match(/\bid=pay$/))
 ){
 loadyn(cdn+"css/home12"+ft1,"css");
 loadyn(cdn+"js/home82"+ft2,"js");
@@ -18,7 +18,7 @@ loadyn(cdn+"css/exp1"+ft1,"css");
 loadyn(cdn+"js/exp38"+ft2,"js");
 }
 
-if(lh.match(/\bpay$/)){
+if(ls.match(/\bid=pay$/)){
 loadyn(cdn+"css/pay10"+ft1,"css");
 loadyn(cdn+"js/pay20"+ft2,"js");
 }
