@@ -10,7 +10,7 @@ if(
 !(ls.match(/\bid=pay$/))
 ){
 loadyn(cdn+"css/home12"+ft1,"css");
-loadyn(cdn+"js/home86"+ft2,"js");
+loadyn(cdn+"js/home87"+ft2,"js");
 }
 
 if(ls.match(/\bexp=/)){
