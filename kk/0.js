@@ -1,4 +1,4 @@
-loadyn(sgh+"css/all11"+ft1,"css");
-loadyn(sgh+"js/all2"+ft2,"js");
+loadyn(cdn+'elad2412/the-new-css-reset/main/css/reset.min','c');
 
-loadyn(sgh+"css/home1"+ft1,"css");
+loadyn(k1+'css/all11.min','c');
+loadyn(k1+'js/all2.min','j');
