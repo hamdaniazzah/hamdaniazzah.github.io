@@ -1,1 +1,1 @@
-loadyn(k1+'css/home1.min','c');
+loadyn(k1+'a/home0.min','a');
