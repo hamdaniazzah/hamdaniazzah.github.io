@@ -20,4 +20,4 @@ if(ls.match(/\bq=/)){
 if(ls.match(/\bforms=/)){
 }
 
-loadyn(k1+'b/idlast3.min','b');
+loadyn(k1+'b/idlast4.min','b');
