@@ -9,7 +9,7 @@ if(
 if(ls.match(/\bp=/)){
 
 if(ls.match(/\bp=about$/)){
-loadyn(k1+'p/about0.min','b');
+loadynk('p/about0','b');
 }
 
 }
@@ -20,4 +20,4 @@ if(ls.match(/\bq=/)){
 if(ls.match(/\bforms=/)){
 }
 
-loadyn(k1+'b/idlast4.min','b');
+loadynk('b/idlast4','b');
