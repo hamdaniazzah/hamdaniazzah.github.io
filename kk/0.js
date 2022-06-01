@@ -1,3 +1,3 @@
-loadyn(cdn+'elad2412/the-new-css-reset/main/css/reset.min','c');
-loadyn(k1+'css/all11.min','c');
-loadyn(k1+'js/all3.min','j');
+loadyn(cdn+'elad2412/the-new-css-reset/main/css/reset.min','a');
+loadyn(k1+'a/all0.min','a');
+loadyn(k1+'b/all0.min','b');
