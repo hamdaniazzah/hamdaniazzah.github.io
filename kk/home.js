@@ -1,1 +1,1 @@
-loadyn(k1+'a/home0.min','a');
+loadynk('a/home0','a');
