@@ -20,10 +20,4 @@ if(ls.match(/\bq=/)){
 if(ls.match(/\bforms=/)){
 }
 
-if (typeof idSetting === 'undefined') {
-loadyn(k1+'b/none0.min','b');
-}
-
-if (typeof idSetting !== 'undefined') {
-loadyn(k1+'b/idlast0.min','b');
-}
+loadyn(k1+'b/idlast1.min','b');
