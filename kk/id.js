@@ -20,4 +20,4 @@ if(ls.match(/\bq=/)){
 if(ls.match(/\bforms=/)){
 }
 
-loadynk('b/idlast4','b');
+loadynk('b/idlast5','b');
