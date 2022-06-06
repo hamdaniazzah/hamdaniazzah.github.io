@@ -9,7 +9,7 @@ if(
 if(ls.match(/\bp=/)){
 
 if(ls.match(/\bp=about$/)){
-loadynk('p/about0','b');
+loadynk('p/about1','b');
 }
 
 }
@@ -20,4 +20,4 @@ if(ls.match(/\bq=/)){
 if(ls.match(/\bforms=/)){
 }
 
-loadynk('b/idlast5','b');
+loadynk('b/idlast6','b');
