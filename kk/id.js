@@ -8,7 +8,7 @@ if(
 
 
 var mypage = 'p=about';
-var re = new RegExp(mypage, 'g');
+var re = new RegExp("\\b"+mypage, 'g');
 if(ls.match(re)){
 loadynk('p/about1','b');
 }
