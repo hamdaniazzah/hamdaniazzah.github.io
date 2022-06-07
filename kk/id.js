@@ -12,8 +12,7 @@ function loadid(f,n,e){
     s.crossOrigin='anonymous';
     s.src=tls+kk1+f+'/'+n+e+'.min.js'+ver;
     s.type='text/javascript';
-  var re=f+'='+n;
-  if(typeof s!=='undefined' && ls==re){
+  if(typeof s!=='undefined' && ls==='?'+f+'='+n){
     doc.head.appendChild(s);
   }
 };
