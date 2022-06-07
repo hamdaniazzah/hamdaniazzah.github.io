@@ -10,10 +10,10 @@ function loadid(f,n,e){
   var s=doc.createElement('script');
     s.async=!1;
     s.crossOrigin='anonymous';
-    s.src=tls+kk1+f+'/'+e+'.min.js'+ver;
+    s.src=tls+kk1+f+'/'+n+e+'.min.js'+ver;
     s.type='text/javascript';
   var re=new RegExp('\\b'+n+'$','g');
-  if(ls.match(re)){
+  if(typeof s!=='undefined' && ls.match(re)){
     doc.head.appendChild(s);
   }
 };
