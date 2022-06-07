@@ -6,6 +6,14 @@ if(
 //
 }
 
+
+var mypage = 'p=about';
+var re = new RegExp(mypage, 'g');
+if(ls.match(re)){
+loadynk('p/about1','b');
+}
+
+/*
 if(ls.match(/\bp=/)){
 
 if(ls.match(/\bp=about$/)){
@@ -13,6 +21,7 @@ loadynk('p/about1','b');
 }
 
 }
+*/
 
 if(ls.match(/\bq=/)){
 }
