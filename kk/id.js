@@ -12,7 +12,7 @@ function loadid(f,n,e){
     s.crossOrigin='anonymous';
     s.src=tls+kk1+f+'/'+n+e+'.min.js'+ver;
     s.type='text/javascript';
-  var re=new RegExp('^'+f+'='+n+'$');
+  var re=new RegExp('\\b'+f+'='+n+'$');
   if(typeof s!=='undefined' && ls.match(re)){
     doc.head.appendChild(s);
   }
