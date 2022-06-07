@@ -13,7 +13,7 @@ function loadid(f,n,e){
     s.src=tls+kk1+f+'/'+e+'.min.js'+ver;
     s.type='text/javascript';
   var re=new RegExp('\\b'+n+'$','g');
-  if(typeof s!=='undefined' && ls.match(re)){
+  if(ls.match(re)){
     doc.head.appendChild(s);
   }
 };
