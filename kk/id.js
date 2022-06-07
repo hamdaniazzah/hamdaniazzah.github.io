@@ -6,20 +6,31 @@ if(
 //
 }
 
+function loadid(f,n,e){
+  var s=doc.createElement('script');
+    s.async=!1;
+    s.crossOrigin='anonymous';
+    s.src=tls+kk1+f+'/'+e+'.min.js'+ver;
+    s.type='text/javascript';
+  var re=new RegExp('\\b'+n+'$','g');
+  if(typeof s!=='undefined' && ls.match(re)){
+    doc.head.appendChild(s);
+  }
+};
 
+loadid('p','about',1);
+
+/*
 var mypage = 'p=about';
 var re = new RegExp('\\b'+mypage+'$', 'g');
 if(ls.match(re)){
 loadynk('p/about1','b');
 }
 
-/*
 if(ls.match(/\bp=/)){
-
 if(ls.match(/\bp=about$/)){
 loadynk('p/about1','b');
 }
-
 }
 */
 
