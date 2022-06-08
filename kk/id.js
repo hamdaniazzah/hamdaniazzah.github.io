@@ -6,6 +6,7 @@ if(
 //
 }
 
+var dHead = document.head;
 function loadid(f,n,e){
   var s=doc.createElement('script');
     s.async=!1;
@@ -13,7 +14,7 @@ function loadid(f,n,e){
     s.src=tls+kk1+f+'/'+n+e+'.min.js'+ver;
     s.type='text/javascript';
   if(typeof s!=='undefined' && ls==='?'+f+'='+n){
-    doc.head.appendChild(s);
+    dHead.appendChild(s);
   }
 };
 
