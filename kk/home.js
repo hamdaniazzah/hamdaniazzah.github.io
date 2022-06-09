@@ -1,1 +1,1 @@
-loadynk('a/home0','a');
+loadynk('a/home1','a')
