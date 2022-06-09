@@ -1,1 +1,1 @@
-loadynk('b/id-fne1','b')
+loadyn(kk1+'b/id-fne1','b')
