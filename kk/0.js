@@ -1,4 +1,4 @@
-loadyn(kk1+'a/all19.min','a');
+loadyn(kk1+'a/all20.min','a');
 loadyn(cdn+'hamdaniazzah/0/main/kk/info0.min','a');
 loadyn(kk1+'b/all7.min','b');
 loadyn(gio+kdataid,'b');
