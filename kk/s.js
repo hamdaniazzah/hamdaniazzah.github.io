@@ -1,1 +1,1 @@
-loadynk('a/s1','a')
+loadynk('a/s2','a')
