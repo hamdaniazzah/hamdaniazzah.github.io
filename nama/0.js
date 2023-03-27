@@ -10,12 +10,12 @@ if(
 !(ls.match(/\bid=pay$/))
 ){
 loadyn(cdn+"css/home12"+ft1,"css");
-loadyn(cdn+"js/home90"+ft2,"js");
+loadyn(cdn+"js/home91"+ft2,"js");
 }
 
 if(ls.match(/\bexp=/)){
 loadyn(cdn+"css/exp1"+ft1,"css");
-loadyn(cdn+"js/exp40"+ft2,"js");
+loadyn(cdn+"js/exp42"+ft2,"js");
 }
 
 if(ls.match(/\bid=pay$/)){
